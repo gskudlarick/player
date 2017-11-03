@@ -29,7 +29,7 @@ function initApp() {
 // just for initial screen
 // Local Testing Showing Bunny.
 function initBunnyLocal(){
-  myPlayer.src('http://159.203.192.45/assets/bunny.mp4')
+  myPlayer.src('/assets/bunny.mp4')
   $.getJSON('/assets/bunny_thumbs.json', function(data){
       myPlayer.thumbnails(data);
   });
