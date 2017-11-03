@@ -1,0 +1,30 @@
+[
+   {
+      "mediaId":1,
+      "format":{
+         "filename":"upload-dir/605.mp4",
+         "duration":254.875,
+         "size":2906430,
+         "format_name":"mov,mp4,m4a,3gp,3g2,mj2",
+         "bit_rate":91226
+      },
+      "videourls":{
+         "videoUrl":"/assets/bunny.mp4",
+         "videoSpriteUrl":"/assets/bunny_sprite.jpg",
+         "videoThumbsJsonUrl":"/assets/bunny_thumbs.json",
+         "videoPosterUrl":"/assets/bunny_sprite.jpg",
+         "videoHlsUrl":"na",
+         "videoMpdUrl":"na"
+      },
+      "name":"Big Bunny",
+      "description":"About the Big Bunny",
+      "metaData":null,
+      "author":"api",
+      "authorIpAddress":"104.173.248.94",
+      "authorLocation":null,
+      "uploadDate":null,
+      "createDate":1509455800000,
+      "modifyDate":1509455800000,
+      "file":null
+   }
+]

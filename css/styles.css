@@ -1,0 +1,36 @@
+p {
+  background-color: #eee;
+  border: thin solid #777;
+  padding: 10px;
+}
+
+
+.json-syntax pre {outline: 1px solid #ccc; padding: 5px; margin: 5px; }
+.json-syntax .string { color: green; }
+.json-syntax .number { color: darkorange; }
+.json-syntax .boolean { color: blue; }
+.json-syntax .null { color: magenta; }
+.json-syntax .key { color: red; }
+
+div.json-syntax {
+ margin:20px 0;
+
+}
+
+
+div.greg-video-container {
+  margin:auto;
+  width:700px;
+  margin-top:50px;
+  margin-bottom:40px;
+}
+div.greg-container {
+  border:1px solid #dedede;
+  padding:20px;
+  border-radius:10px;
+}
+
+h4, h3 {
+  text-align:center;
+  margin:35px;
+}

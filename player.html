@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<title>Video.js Thumbnails Example</title>
+<link href="//vjs.zencdn.net/5.4.6/video-js.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="/css/videojs.thumbnails.css" rel="stylesheet">
+<!-- ges-custom -->
+<link href="/css/styles.css" rel="stylesheet">
+<script src="//vjs.zencdn.net/5.4.6/video.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src='/js/videojs.thumbnails.js'></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- ges custom -->
+<script src='/js/page.js'></script>
+<style>
+</style>
+</head>
+<body>
+
+<nav  class="navbar navbar-inverse ">
+  <div  class="container-fluid">
+    <div  class="navbar-header">
+      <a href="http://159.203.192.45:8080/home" class="navbar-brand active" style="cursor:pointer; text-transform:Capatilize;"><span class="glyphicon glyphicon-film"></span> Video Uploads Demo</a>
+    </div>
+
+    <div  class="navbar-default">
+      <ul  class="nav navbar-nav">
+        <li><a > <span class="glyphicon glyphicon-wrench"></span>  Admin &amp; Test</a></li>
+        <li><a href="http://159.203.192.45:8080/upload"> <span class="glyphicon glyphicon-upload"></span> Upload </a></li>
+        <li class="active"><a href="http://159.203.192.45/player.html" ><span class="glyphicon glyphicon-hd-video"></span> Video Player</a></li>
+        <li><a  href="http://159.203.192.45/vz"   target="_blank"><span class="glyphicon glyphicon-link"></span> Angular Client</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div>
+  <h4>Video Uploads Test Player</h4>
+</div>
+<div class='container greg-container'>
+  <div class='row col-md-12'>
+
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-btn">
+          <button id="selectMedia" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Media URL<span class="caret"></span></button>
+          <ul class="dropdown-menu">
+          </ul>
+        </div><!-- /btn-group -->
+        <input id="media-url-input" type="text" class="form-control" aria-label="...">
+        <span class="input-group-btn">
+          <button id="load-media-btn" class="btn btn-primary" type="button" ng-click="doLoad()">Load</button>
+        </span>
+      </div><!-- /input-group -->
+    </div>
+
+    <!-- <button id="selectBunny" type="button" class="btn btn-primary" >Load Bunny Video</button> -->
+    <!-- <button id="selectChucky" type="button" class="btn btn-primary" >Load Chucky Video</button> -->
+
+  </div>
+
+  <div class='row col-md-12'>
+    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#json-display">
+      Display Video Data. 
+    </button>
+
+
+    <div id="json-display" class="json-syntax collapse out" > 
+      <p>Please Select and Load a Video </p>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="greg-video-container" > 
+  <video id='video-element'
+    class='video-js vjs-default-skin vjs-default-skin vjs-big-play-centered'
+    width=700'
+    height='393'
+    poster='/assets/bunny_sprite.jpg'
+    controls>
+    <!-- <source src='/assets/chucky.mp4' type='video/mp4' /> -->
+  </video>
+</div>
+
+
+</body>
+
+
+
+</html>
