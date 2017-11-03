@@ -1,2 +1,2 @@
-** Video Player **
-*Players Thmbnails*
+**Video Player**
+ * *Plays Videos with Thumbnail Scrubbing. *
